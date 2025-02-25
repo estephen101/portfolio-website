@@ -1,4 +1,4 @@
-
+import '../App.css'
 import {Link}  from 'react-router-dom'
 
 function Header (){
@@ -7,11 +7,15 @@ function Header (){
             <h1>Portfolio</h1>
             <nav>
                 <ul>
-                    <li><LInk to="/">Home</LInk></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/services">Services</Link></li>
+                    <li><Link to="/portfolio">Portfolio</Link></li>
+                    <li><Link to="/contacts">Contacts</Link></li>
                 </ul>
             </nav>
         </div>
     )
 }
 
-export default Header;
+export default Header; 

@@ -1,0 +1,19 @@
+/*header styling */
+.header-div{
+    width: 100dvw;
+    padding: ;
+}
+nav{
+    display:  flex;
+    justify-content:  space-between;
+    margin-top: 0;
+    width: inherit;
+    background-color: rgb(172, 77, 108);
+}
+
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    margin: 2px;
+    
+}

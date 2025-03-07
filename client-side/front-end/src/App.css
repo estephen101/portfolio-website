@@ -34,7 +34,8 @@ ul li a{
 
 /*footer styling */
 .footer{
-    background:#ff0000;
+    background:#133509;
     display: flex;
     justify-content: space-between;
+    
 }

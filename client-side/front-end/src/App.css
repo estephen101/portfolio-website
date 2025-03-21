@@ -7,10 +7,11 @@ nav{
     display:  flex;
     justify-content:  space-between;
     margin-top: 0;
-    width: inherit;
+    width: 100dvw;
     background-color: rgb(124, 74, 27);
     padding: 4px;
     color: #fff;
+    position:relative;
 }
 
 nav ul li{
@@ -31,11 +32,22 @@ ul li a{
 }
 
 /*home styling */
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+
+}
 
 /*footer styling */
 .footer{
     background:#133509;
     display: flex;
     justify-content: space-between;
+    color: #fff;
     
 }
